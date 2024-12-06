@@ -3,7 +3,7 @@
  * Plugin Name: Navigation Posts
  * Plugin URI: https://github.com/beaushowcase/navigation-posts
  * Description: Provides navigation arrows for previous and next posts in the WordPress backend.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: #beaubhavik
  * Author URI: https://spiderdunia.com
  * License: GPL-2.0+
@@ -29,7 +29,7 @@ function navigation_posts_enqueue_assets( $hook ) {
         return;
     }
 
-    wp_enqueue_style( 'navigation-posts-style', plugins_url( 'css/navigation-posts.css', __FILE__ ), array(), '1.0.0' );
+    wp_enqueue_style( 'navigation-posts-style', plugins_url( 'css/navigation-posts.css', __FILE__ ), array(), '1.0.1' );
 }
 
 // Add action to include our navigation in the admin area

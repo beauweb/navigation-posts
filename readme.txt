@@ -1,9 +1,9 @@
 === Navigation Posts ===
-Contributors: beaubhavik
+Contributors: beauplayground
 Tags: navigation, posts, admin, backend
 Requires at least: 4.7
-Tested up to: 6.6
-Stable tag: 1.0.0
+Tested up to: 6.7
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,10 +40,18 @@ Yes, the plugin is fully compatible with both the classic and block editors.
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated WordPress compatibility to 6.7
+* Updated contributor information
+* Minor code improvements
+
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Updated WordPress compatibility to 6.7 and contributor information.
 
 = 1.0.0 =
 Initial release of Navigation Posts plugin.
