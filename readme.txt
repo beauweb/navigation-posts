@@ -3,7 +3,7 @@ Contributors: beauplayground
 Tags: navigation, posts, admin, backend
 Requires at least: 4.7
 Tested up to: 6.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,6 +40,10 @@ Yes, the plugin is fully compatible with both the classic and block editors.
 
 == Changelog ==
 
+= 1.0.2 =
+* Added languages directory for internationalization support
+* Fixed Domain Path structure
+
 = 1.0.1 =
 * Updated WordPress compatibility to 6.7
 * Updated contributor information
@@ -49,6 +53,9 @@ Yes, the plugin is fully compatible with both the classic and block editors.
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Added proper internationalization support.
 
 = 1.0.1 =
 Updated WordPress compatibility to 6.7 and contributor information.
