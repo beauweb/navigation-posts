@@ -1,0 +1,10 @@
+/* RTL Support for Navigation Posts */
+.nav-posts-next {
+    float: left;
+}
+.nav-posts-previous {
+    float: right;
+}
+.rtl .nav-posts-arrow {
+    transform: scaleX(-1);
+}
