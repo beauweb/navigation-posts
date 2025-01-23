@@ -3,7 +3,7 @@ Contributors: beauplayground
 Tags: navigation, posts
 Requires at least: 4.7
 Tested up to: 6.7.1
-Stable tag: 1.0.4
+Stable tag: 1.0.6
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,12 @@ Yes, this plugin has been tested and verified to work with WordPress version 6.7
 No, this plugin doesn't make any modifications to your database.
 
 == Changelog ==
+
+= 1.0.6 =
+* Updated plugin URI
+
+= 1.0.5 =
+* Enhanced previous/next navigation arrow styles for better visual appearance
 
 = 1.0.4 =
 * Tested and verified compatibility with WordPress 6.7.1

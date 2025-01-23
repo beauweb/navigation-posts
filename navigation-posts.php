@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Navigation Posts
- * Plugin URI: https://github.com/beaushowcase/navigation-posts
+ * Plugin URI: https://github.com/beauweb/navigation-posts
  * Description: Provides navigation arrows for previous and next posts in the WordPress backend.
- * Version: 1.0.4
+ * Version: 1.0.6
  * Requires at least: 4.7
  * Requires PHP: 7.0
  * Tested up to: 6.7.1
- * Stable tag: 1.0.4
+ * Stable tag: 1.0.6
  * Author: #beaubhavik
  * Author URI: https://spiderdunia.com
  * License: GPL-2.0+
@@ -30,7 +30,7 @@ if ( ! function_exists( 'is_admin' ) ) {
 }
 
 // Define plugin constants
-define( 'NAVIGATION_POSTS_VERSION', '1.0.4' );
+define( 'NAVIGATION_POSTS_VERSION', '1.0.6' );
 define( 'NAVIGATION_POSTS_FILE', __FILE__ );
 define( 'NAVIGATION_POSTS_PATH', plugin_dir_path( NAVIGATION_POSTS_FILE ) );
 define( 'NAVIGATION_POSTS_URL', plugin_dir_url( NAVIGATION_POSTS_FILE ) );
@@ -132,10 +132,10 @@ function navigation_posts_add_arrows() {
             <a href="%s" %s title="%s" class="navigation-posts-arrow">&#9660;</a>
         </div>',
         esc_url( $next_url ),
-        $next_url ? '' : 'class="disabled"',
+        $next_url ? '' : 'class="disabled navigation-posts-arrow"',
         esc_attr__( 'Next Post', 'navigation-posts' ),
         esc_url( $prev_url ),
-        $prev_url ? '' : 'class="disabled"',
+        $prev_url ? '' : 'class="disabled navigation-posts-arrow"',
         esc_attr__( 'Previous Post', 'navigation-posts' )
     );
 
