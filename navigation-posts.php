@@ -3,11 +3,15 @@
  * Plugin Name: Navigation Posts
  * Plugin URI: https://github.com/beauweb/navigation-posts
  * Description: Provides navigation arrows for previous and next posts in the WordPress backend.
+<<<<<<< Updated upstream
  * Version: 1.0.6
  * Requires at least: 4.7
  * Requires PHP: 7.0
  * Tested up to: 6.7.1
  * Stable tag: 1.0.6
+=======
+ * Version: 1.0.3
+>>>>>>> Stashed changes
  * Author: #beaubhavik
  * Author URI: https://spiderdunia.com
  * License: GPL-2.0+
@@ -24,10 +28,15 @@ if ( ! function_exists( 'add_action' ) ) {
     exit;
 }
 
+<<<<<<< Updated upstream
 // Include WordPress Plugin API
 if ( ! function_exists( 'is_admin' ) ) {
     require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 }
+=======
+// Enqueue styles and script
+add_action( 'admin_enqueue_scripts', 'navigation_posts_enqueue_assets' );
+>>>>>>> Stashed changes
 
 // Define plugin constants
 define( 'NAVIGATION_POSTS_VERSION', '1.0.6' );
@@ -82,6 +91,7 @@ function navigation_posts_enqueue_assets( $hook ) {
         return;
     }
 
+<<<<<<< Updated upstream
     wp_enqueue_style( 
         'navigation-posts-style', 
         plugins_url( 'css/navigation-posts.css', __FILE__ ), 
@@ -96,6 +106,13 @@ function navigation_posts_enqueue_assets( $hook ) {
             array(),
             NAVIGATION_POSTS_VERSION
         );
+=======
+    wp_enqueue_style( 'navigation-posts-style', plugins_url( 'css/navigation-posts.css', __FILE__ ), array(), '1.0.3' );
+    
+    // Load RTL styles if needed
+    if (is_rtl()) {
+        wp_enqueue_style('navigation-posts-rtl', plugins_url('css/rtl.css', __FILE__));
+>>>>>>> Stashed changes
     }
 }
 add_action( 'admin_enqueue_scripts', 'navigation_posts_enqueue_assets' );

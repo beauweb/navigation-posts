@@ -2,8 +2,13 @@
 Contributors: beauplayground
 Tags: navigation, posts
 Requires at least: 4.7
+<<<<<<< Updated upstream
 Tested up to: 6.7.1
 Stable tag: 1.0.6
+=======
+Tested up to: 6.4.2
+Stable tag: 1.0.3
+>>>>>>> Stashed changes
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,13 +35,18 @@ Features:
 == Frequently Asked Questions ==
 
 = Is this plugin compatible with the latest WordPress versions? =
+<<<<<<< Updated upstream
 Yes, this plugin has been tested and verified to work with WordPress version 6.7.1.
+=======
+Yes, this plugin has been tested and verified to work with WordPress versions 6.4.2, 6.3, and 6.2.
+>>>>>>> Stashed changes
 
 = Does this plugin modify my database? =
 No, this plugin doesn't make any modifications to your database.
 
 == Changelog ==
 
+<<<<<<< Updated upstream
 = 1.0.6 =
 * Updated plugin URI
 
@@ -51,6 +61,8 @@ No, this plugin doesn't make any modifications to your database.
 * Enhanced security with proper escaping
 * Updated version numbers for consistency
 
+=======
+>>>>>>> Stashed changes
 = 1.0.3 =
 * Explicitly verified compatibility with WordPress 6.4.2, 6.3, and 6.2
 * Enhanced documentation for WordPress version support
@@ -76,9 +88,12 @@ No, this plugin doesn't make any modifications to your database.
 
 == Upgrade Notice ==
 
+<<<<<<< Updated upstream
 = 1.0.4 =
 Verified compatibility with WordPress 6.7.1. Recommended update for all users.
 
+=======
+>>>>>>> Stashed changes
 = 1.0.3 =
 Added explicit compatibility information and enhanced documentation.
 
